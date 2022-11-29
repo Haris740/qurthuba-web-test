@@ -181,10 +181,12 @@ header{
     background-color: #001149;
     color: whitesmoke;
     padding: 50px;
+    justify-content: space-around;
 }
 
 .links *{
     color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .links div{
