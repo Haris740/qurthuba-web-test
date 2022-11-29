@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qurthuba | Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./keyframes.css">
+    <link rel="stylesheet" href="./mobile-view.css">
+    <script src="./script.js" difer></script>
+</head>
+<body>
+    <header>
+        <!-- <ul class="top-nav">
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Staff</a></li>
+        </ul> -->
+        <div class="nav-container">
+            <div class="nav-opener"><h1 onclick="document.querySelector('.nav').classList.toggle('opened');">#</h1></div>
+            <h3 class="logo">Qurthuba Foundation</h3>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" class="about-link" onmouseover="showAbout()" onmouseleave="hideAbout()">About</a>
+                    <ul class="about-list" onmouseover="showAbout()" onmouseleave="hideAbout()">
+                        <li><a href="#">Message</a></li>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Philosophy</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Management</a></li>
+                    </ul></li>
+                <li><a href="#academics" class="academics-link" onmouseover="showAcademics()" onmouseleave="hideAcademics()">Academics</a>
+                    <ul class="academics-list" onmouseover="showAcademics()" onmouseleave="hideAcademics()">
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Curriculum</a></li>
+                        <li><a href="#">Co-Curriculam</a></li>
+                    </ul></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#library">Library</a></li>
+                <li><a href="#cnt">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="home" id="home">
+            <h4>Qurthuba Foundation</h4>
+            <h2>Wisdom Begins with wonder</h2>
+        </div>
+        <h3 class="text-between">The highest education is that which does not merely give us information<br> but makes our life in harmony with all existence.</h3>
+        <div class="reveal first" id="about">
+            <img src="./img/pic (4).jpg" alt="" class="image">
+            <div class="text">
+                <h2>About</h2>
+                <p>Qurthuba Foundation is an institute of Excellence setted up for the propregation of Islamic studies in the remote areas of the Bihar. This institution focused on improving skills among the students in Bihar with the education, food and accommodation are provided completely free.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="second reveal" id="academics">
+            <div class="text">
+                <h2>Academics</h2>
+                <p>The curriculum of this institution is designed as a planned experience where students practice and achieve proficiency in Islamic Studies and its practicals. So, this gives access for all students to rigorous academics experience. Other than curriculum activities this institution also introduce some of co-curriculum activities which are essential for improving skills of students.</p>
+                <a href="#">Read More</a>
+            </div>
+            <img src="./img/pic (2).jpg" alt="" class="image">
+        </div>
+        <div class="third reveal" id="admission">
+            <img src="./img/pic (3).jpg" alt="" class="image">
+            <div class="text">
+                <h2>Admission</h2>
+                <p>Qurthuba entroll students after their mental capacity and logical ability are evaluated through a written test and a vocal interview. The admission test is conducted at the campus in the month of Shawal. Date of admission test would be announced in the last days of Sha'ban. Qurthuba Foundation opens its door before male students under 12 years.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="fourth reveal" id="library">
+            <div class="text">
+                <h2>Library</h2>
+                <p>The library of Qurthuba Foundation has a highly furnished building with rich collections of books and references in all sections. With modern facilities of digital and computing system, the library is a great hallmark of the institution. The library has been functioning as an invaluable resource hub for students, teachers and outside members. It has nearly 2500 collections of books and journals along with periodicals in different languages. The rich collection has been categorized into many divisions according to subjects like Tafsir, Hadith, Fiqh, History, Fiction and etc.</p>
+                <a href="#">Read More</a>
+            </div>
+            <img src="./img/pic (1).jpg" alt="" class="image">
+        </div>
+    </main>
+
+    <footer>
+        <div class="links">
+            <div class="aboutb">
+                <h4>About</h4>
+                <ul class="abouts">
+                    <li><a href="#">Message</a></li>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Philosophy</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Management</a></li>
+                </ul>
+            </div>
+            <div class="academicb">
+                <h4>Academics</h4>
+                <ul class="academicss">
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Curriculum</a></li>
+                    <li><a href="#">Co-Curriculum</a></li>
+                </ul>
+            </div>
+        </div>
+        <h5>All rights reserved @ Model Media</h5>
+    </footer>
+</body>
+</html>
